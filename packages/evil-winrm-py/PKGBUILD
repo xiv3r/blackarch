@@ -14,7 +14,7 @@ groups=('blackarch' 'blackarch-windows' 'blackarch-exploitation'
 depends=('python' 'python-pypsrp' 'python-prompt_toolkit' 'python-tqdm')
 makedepends=('python-build' 'python-installer' 'python-wheel' 'python-setuptools')
 optdepends=('python-kerberos: Kerberos authentication support')
-source=("https://files.pythonhosted.org/packages/44/10/5731c231e9686663e081641f7be18be869464fecc662fe54358fad8e962f/$_pkgname-$pkgver.tar.gz")
+source=("https://files.pythonhosted.org/packages/source/${_pkgname::1}/$_pkgname/$_pkgname-$pkgver.tar.gz")
 sha512sums=('62199223f099c3a2c6d0ead9f861f89a9b8acec421f33d56d3a292773576994e38d524e5f310d6667e765286bde21dea780413c04ad4033a1dd3c6b528768a0d')
 
 build() {
