@@ -2,7 +2,7 @@
 # See COPYING for license details.
 
 pkgname=honggfuzz
-pkgver=4172.f0314885
+pkgver=4174.de82cde5
 pkgrel=1
 groups=('blackarch' 'blackarch-fuzzer' 'blackarch-hardware')
 pkgdesc='A general-purpose fuzzer with simple, command-line interface.'

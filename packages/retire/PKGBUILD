@@ -3,7 +3,7 @@
 
 pkgname=retire
 _pkgname=retire.js
-pkgver=5.4.2.r20.gb09afe5
+pkgver=5.4.2.r24.g8f17100
 pkgrel=1
 pkgdesc='Scanner detecting the use of JavaScript libraries with known vulnerabilities.'
 arch=('any')

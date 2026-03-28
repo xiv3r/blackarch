@@ -2,7 +2,7 @@
 # See COPYING for license details.
 
 pkgname=wesng
-pkgver=454.a155496
+pkgver=456.a2a66c5
 pkgrel=1
 pkgdesc='Windows Exploit Suggester - Next Generation.'
 arch=('any')

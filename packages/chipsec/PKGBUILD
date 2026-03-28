@@ -2,7 +2,7 @@
 # See COPYING for license details.
 
 pkgname=chipsec
-pkgver=2.0.1.r12.g79f81bb
+pkgver=2.0.1.r25.g8c5b032
 pkgrel=1
 epoch=5
 pkgdesc='Platform Security Assessment Framework.'

@@ -2,7 +2,7 @@
 # See COPYING for license details.
 
 pkgname=bagbak
-pkgver=316.d35754c
+pkgver=331.75a11d8
 pkgrel=1
 pkgdesc='Yet another frida based App decryptor.'
 arch=('any')

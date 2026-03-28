@@ -3,7 +3,7 @@
 
 pkgname=ctf-party
 _gemname=ctf-party
-pkgver=v5.0.0.r14.g83abcce
+pkgver=v5.0.0.r18.g51ee631
 pkgrel=1
 groups=('blackarch' 'blackarch-misc')
 pkgdesc='A CLI tool & library to enhance and speed up script/exploit writing for CTF players.'

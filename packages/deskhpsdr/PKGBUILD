@@ -2,7 +2,7 @@
 # See COPYING for license details.
 
 pkgname=deskhpsdr
-pkgver=2.6.79.r11.g36cbfc8
+pkgver=2.6.81.r8.g9086c8e
 pkgrel=1
 pkgdesc='SDR App for HPSDR protocol and Soapy-API.'
 arch=('x86_64' 'aarch64')

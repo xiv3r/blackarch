@@ -3,7 +3,7 @@
 
 pkgname=python-dissect.xfs
 _pkgname=${pkgname#python-}
-pkgver=3.13.r1.g82d5496
+pkgver=3.13.r2.gabac18b
 pkgrel=1
 pkgdesc='A Dissect module implementing a parser for the XFS file system, commonly used by RedHat Linux distributions.'
 arch=('any')

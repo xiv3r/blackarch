@@ -3,7 +3,7 @@
 
 pkgname=python-dissect.fat
 _pkgname=${pkgname#python-}
-pkgver=3.13.r1.gef45764
+pkgver=3.13.r3.g640424d
 pkgrel=1
 pkgdesc='A Dissect module implementing parsers for the FAT and exFAT file systems, commonly used on flash memory based storage devices and UEFI partitions.'
 arch=('any')

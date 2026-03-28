@@ -2,7 +2,7 @@
 # See COPYING for license details.
 
 pkgname=rr
-pkgver=7195.37f44c7a
+pkgver=7197.b5696b76
 pkgrel=1
 groups=('blackarch' 'blackarch-debugger' 'blackarch-misc')
 pkgdesc='A Record and Replay Framework.'

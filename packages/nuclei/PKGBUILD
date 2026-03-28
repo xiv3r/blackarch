@@ -2,7 +2,7 @@
 # See COPYING for license details.
 
 pkgname=nuclei
-pkgver=v3.6.2.r113.g979c867
+pkgver=v3.6.2.r187.g9e2366f
 pkgrel=1
 epoch=2
 groups=('blackarch' 'blackarch-scanner' 'blackarch-webapp' 'blackarch-recon'

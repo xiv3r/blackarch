@@ -2,7 +2,7 @@
 # See COPYING for license details.
 
 pkgname=gpredict
-pkgver=1669.2a57f14
+pkgver=1687.f0da4b1
 pkgrel=1
 pkgdesc='A real-time satellite tracking and orbit prediction application.'
 arch=('x86_64' 'aarch64')

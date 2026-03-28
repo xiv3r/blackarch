@@ -2,7 +2,7 @@
 # See COPYING for license details.
 
 pkgname=zarn
-pkgver=0.0.9.r122.g97a590c
+pkgver=0.0.9.r125.g291124c
 pkgrel=1
 pkgdesc='A lightweight static security analysis tool for modern Perl Apps.'
 arch=('any')

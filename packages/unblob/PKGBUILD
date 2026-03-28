@@ -2,7 +2,7 @@
 # See COPYING for license details.
 
 pkgname=unblob
-pkgver=25.11.25.r224.g4a7c4a5
+pkgver=26.3.24.r7.g675fc5a
 pkgrel=1
 pkgdesc='Extract files from any kind of container formats.'
 arch=('any')

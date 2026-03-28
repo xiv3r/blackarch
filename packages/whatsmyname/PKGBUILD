@@ -2,7 +2,7 @@
 # See COPYING for license details.
 
 pkgname=whatsmyname
-pkgver=2740.a37a2df
+pkgver=2747.6e4ca91
 pkgrel=1
 pkgdesc='Tool to perform user and username enumeration on various websites.'
 groups=('blackarch' 'blackarch-social' 'blackarch-recon')

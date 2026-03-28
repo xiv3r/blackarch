@@ -2,7 +2,7 @@
 # See COPYING for license details.
 
 pkgname=didier-stevens-suite
-pkgver=441.d0487ab
+pkgver=442.fe9e189
 pkgrel=1
 groups=('blackarch')
 pkgdesc='Didier Stevens Suite.'

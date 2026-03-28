@@ -2,7 +2,7 @@
 # See COPYING for license details.
 
 pkgname=fernflower
-pkgver=829.17cf47ca
+pkgver=835.5ec08540
 pkgrel=1
 pkgdesc='An analytical decompiler for Java.'
 groups=('blackarch' 'blackarch-decompiler')

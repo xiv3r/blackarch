@@ -2,7 +2,7 @@
 # See COPYING for license details.
 
 pkgname=peass
-pkgver=20260308.8a13be4d.r2.ga8f6b16
+pkgver=20260323.31545e76.r0.gac31bce
 _pkgver=20250701-bdcab634
 pkgrel=1
 pkgdesc='Privilege Escalation Awesome Scripts SUITE (with colors).'

@@ -2,7 +2,7 @@
 # See COPYING for license details.
 
 pkgname=python-cstruct
-pkgver=v6.2.r1.gd23dfd2
+pkgver=v6.2.r3.gaae3708
 pkgrel=1
 pkgdesc='C-style structs for Python.'
 arch=('any')

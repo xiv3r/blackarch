@@ -3,7 +3,7 @@
 
 pkgname=sstimap
 _pkgname=SSTImap
-pkgver=v1.3.r2.g1ac873e
+pkgver=v1.3.3.r0.g770fde4
 pkgrel=1
 pkgdesc='Automatic SSTI detection tool with interactive interface.'
 arch=('any')

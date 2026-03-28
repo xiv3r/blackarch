@@ -3,7 +3,7 @@
 
 pkgname=python-dissect.clfs
 _pkgname=${pkgname#python-}
-pkgver=1.11.r1.gb3d4959
+pkgver=1.11.r3.g0c96c5b
 pkgrel=1
 pkgdesc='A Dissect module implementing a parser for the CLFS (Common Log File System) file system of Windows.'
 arch=('any')

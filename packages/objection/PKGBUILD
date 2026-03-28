@@ -2,7 +2,7 @@
 # See COPYING for license details.
 
 pkgname=objection
-pkgver=1.12.3
+pkgver=1.12.4
 _pyver=3.14
 pkgrel=1
 pkgdesc='Instrumented Mobile Pentest Framework.'
@@ -17,7 +17,7 @@ depends=('python' 'python-frida' 'python-frida-tools' 'python-prompt_toolkit'
 makedepends=('python-build' 'python-installer' 'python-setuptools'
              'python-wheel')
 source=("https://files.pythonhosted.org/packages/source/${pkgname::1}/$pkgname/$pkgname-$pkgver.tar.gz")
-sha512sums=('36c1d34ada9cc909bdd901316da3266c178b83a118be6e35a2d95dcf05bf36684be981bd11bb9a0a8a3cca2923e779c2fbf8df39fd7bafba6284498fa233b815')
+sha512sums=('870c23cfca331810d20ee5cea04447fdfc09afad22069880eb8cc3adcb799fdd3bbf5ec593f054761d701e9bbc43f150ad46f3dc823327e5207914ad1a534a04')
 
 build() {
   cd "$pkgname-$pkgver"

@@ -3,7 +3,7 @@
 
 pkgname=python-dissect.extfs
 _pkgname=${pkgname#python-}
-pkgver=3.15.r1.g16ea88f
+pkgver=3.15.r2.g24cb582
 pkgrel=1
 pkgdesc='A Dissect module implementing a parser for the ExtFS file system, the native filesystem for Linux operating systems.'
 arch=('any')

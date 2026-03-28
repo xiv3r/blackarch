@@ -3,8 +3,8 @@
 
 pkgname=python-dissect.archive
 _pkgname=${pkgname#python-}
-pkgver=1.8.r0.gc0c3ff3
-pkgrel=3
+pkgver=1.8.r2.ge2f7b9f
+pkgrel=1
 pkgdesc='A Dissect module implementing parsers for various archive and backup formats.'
 arch=('any')
 url='https://github.com/fox-it/dissect.archive'

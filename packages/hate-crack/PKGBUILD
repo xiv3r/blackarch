@@ -2,7 +2,7 @@
 # See COPYING for license details.
 
 pkgname=hate-crack
-pkgver=473.830e7b9
+pkgver=564.717aa9e
 pkgrel=1
 pkgdesc='A tool for automating cracking methodologies through Hashcat.'
 groups=('blackarch' 'blackarch-automation' 'blackarch-cracker')

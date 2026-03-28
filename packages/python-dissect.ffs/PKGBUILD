@@ -3,7 +3,7 @@
 
 pkgname=python-dissect.ffs
 _pkgname=${pkgname#python-}
-pkgver=3.12.r2.gd00e1ee
+pkgver=3.12.r3.g37bfbde
 pkgrel=1
 pkgdesc='A Dissect module implementing a parser for the FFS file system, commonly used by BSD operating systems.'
 arch=('any')
