@@ -2,8 +2,9 @@
 # See COPYING for license details.
 
 pkgname=manspider
+_pkgname=man-spider
 pkgver=116.070a81e
-pkgrel=1
+pkgrel=2
 pkgdesc='Spider entire networks for juicy files sitting on SMB shares. Search filenames or file content - regex supported!'
 groups=('blackarch' 'blackarch-scanner' 'blackarch-recon')
 arch=('any')
@@ -38,6 +39,7 @@ package() {
 
 cat > "$pkgdir/usr/bin/$pkgname" << EOF
 #!/bin/sh
+source /usr/share/$pkgname/venv/venvs/$_pkgname/bin/activate
 exec /usr/share/$pkgname/bin/$pkgname "\$@"
 EOF
 
