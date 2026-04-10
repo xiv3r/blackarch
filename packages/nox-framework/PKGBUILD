@@ -11,9 +11,9 @@ url='https://github.com/nox-project/nox-framework'
 license=('Apache-2.0')
 depends=('python' 'python-aiohttp' 'python-aiohttp-socks' 'python-aiosqlite'
          'python-httpx' 'python-requests' 'python-certifi' 'python-cloudscraper'
-         'python-beautifulsoup4' 'python-lxml' 'python-dnspython' 'python-phonenumbers'
-         'python-pydantic' 'python-pydantic-core' 'python-colorama' 'python-rich'
-         'python-stem' 'python-fpdf2')
+         'python-beautifulsoup4' 'python-lxml' 'python-dnspython'
+         'python-phonenumbers' 'python-pydantic' 'python-pydantic-core'
+         'python-colorama' 'python-rich' 'python-stem' 'python-fpdf2')
 makedepends=('python-build' 'python-installer' 'python-setuptools'
              'python-wheel')
 source=("$url/archive/refs/tags/v$pkgver.tar.gz")
@@ -23,6 +23,7 @@ build() {
   cd "$pkgname-$pkgver"
 
   python -m build --wheel --no-isolation
+
   python build_sources.py
 }
 
@@ -30,6 +31,7 @@ package() {
   cd "$pkgname-$pkgver"
 
   python -m installer --destdir="$pkgdir" dist/*.whl
+
   install -Dm 644 -t "$pkgdir/usr/share/$pkgname/sources/" sources/*.json
 }
 

@@ -4,10 +4,9 @@
 pkgname=python-fpdf2
 _pkgname=fpdf2
 pkgver=2.8.7
-pkgrel=1
-pkgdesc='Simple PDF generation for Python '
+pkgrel=2
+pkgdesc='Simple PDF generation for Python.'
 arch=('any')
-groups=('blackarch')
 url='https://github.com/py-pdf/fpdf2'
 license=('LGPL-3.0-only')
 depends=('python' 'python-defusedxml' 'python-pillow' 'python-fonttools')
