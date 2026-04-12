@@ -2,7 +2,7 @@
 # See COPYING for license details.
 
 pkgname=dnsx
-pkgver=v1.2.1.r437.gc10a6fe
+pkgver=v1.2.1.r438.g54a076d
 pkgrel=1
 epoch=1
 groups=('blackarch' 'blackarch-recon')

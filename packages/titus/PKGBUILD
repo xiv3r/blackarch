@@ -2,7 +2,7 @@
 # See COPYING for license details.
 
 pkgname=titus
-pkgver=v1.1.17.r0.g856e42c
+pkgver=v1.1.23.r0.g369d8dc
 pkgrel=1
 pkgdesc='High-performance secrets scanner based on NoseyParker.'
 arch=('x86_64' 'aarch64')

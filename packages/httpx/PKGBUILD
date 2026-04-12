@@ -2,7 +2,7 @@
 # See COPYING for license details.
 
 pkgname=httpx
-pkgver=v1.7.4.r127.g490f141
+pkgver=v1.7.4.r129.g1c3f6df
 pkgrel=1
 epoch=1
 groups=('blackarch' 'blackarch-webapp' 'blackarch-scanner')

@@ -2,7 +2,7 @@
 # See COPYING for license details.
 
 pkgname=prowler
-pkgver=8007.509ec74c3d
+pkgver=8067.1aa91cf60f
 pkgrel=1
 epoch=1
 pkgdesc='Tool for AWS security assessment, auditing and hardening.'

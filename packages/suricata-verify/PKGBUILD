@@ -2,7 +2,7 @@
 # See COPYING for license details.
 
 pkgname=suricata-verify
-pkgver=suricata.7.0.15.r26.g240b99b
+pkgver=suricata.7.0.15.r28.gd8e47ad
 pkgrel=1
 epoch=1
 pkgdesc='Suricata Verification Tests - Testing Suricata Output.'

@@ -2,7 +2,7 @@
 # See COPYING for license details.
 
 pkgname=mailsend-go
-pkgver=144.4599ce9
+pkgver=145.a1ac8b2
 pkgrel=1
 groups=('blackarch' 'blackarch-spoof' 'blackarch-misc')
 pkgdesc='A multi-platform command line tool to send mail via SMTP protocol.'

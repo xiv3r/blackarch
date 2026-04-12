@@ -2,7 +2,7 @@
 # See COPYING for license details.
 
 pkgname=dalfox
-pkgver=2116.ce134a3
+pkgver=2122.df1e1a4
 pkgrel=1
 pkgdesc='Parameter Analysis and XSS Scanning tool.'
 arch=('x86_64' 'aarch64')

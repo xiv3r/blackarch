@@ -2,7 +2,7 @@
 # See COPYING for license details.
 
 pkgname=cameradar
-pkgver=232.2f2abb5
+pkgver=234.4c8c163
 pkgrel=1
 pkgdesc='Hacks its way into RTSP videosurveillance cameras.'
 arch=('x86_64')

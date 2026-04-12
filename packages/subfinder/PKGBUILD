@@ -2,7 +2,7 @@
 # See COPYING for license details.
 
 pkgname=subfinder
-pkgver=v2.12.0.r31.ge6ed1e1b
+pkgver=v2.12.0.r33.g85929ab9
 pkgrel=1
 epoch=1
 groups=('blackarch' 'blackarch-recon')

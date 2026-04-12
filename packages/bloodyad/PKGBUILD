@@ -2,7 +2,7 @@
 # See COPYING for license details.
 
 pkgname=bloodyad
-pkgver=2.5.4.r1.gdd13a57
+pkgver=2.5.4.r4.g3ee204d
 pkgrel=1
 epoch=1
 pkgdesc='An Active Directory Privilege Escalation Framework.'

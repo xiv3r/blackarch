@@ -2,7 +2,7 @@
 # See COPYING for license details.
 
 pkgname=nuclei-templates
-pkgver=v10.4.1.r159.g371c2cc
+pkgver=v10.4.1.r523.gb075775
 pkgrel=1
 epoch=1
 pkgdesc='Community curated list of template files for the nuclei engine.'
