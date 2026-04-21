@@ -2,8 +2,8 @@
 # See COPYING for license details.
 
 pkgname=sshprank
-pkgver=1.4.3
-pkgrel=2
+pkgver=1.5.0
+pkgrel=1
 groups=('blackarch' 'blackarch-cracker' 'blackarch-scanner'
         'blackarch-fingerprint')
 pkgdesc='A fast SSH mass-scanner, login cracker and banner grabber tool using the python-masscan and shodan module.'
@@ -12,7 +12,7 @@ license=('custom:unknown')
 arch=('any')
 depends=('python' 'python-python-masscan' 'python-paramiko' 'python-shodan')
 source=("https://github.com/nullsecuritynet/tools/raw/main/cracker/$pkgname/release/$pkgname-$pkgver.tar.gz")
-sha512sums=('7237babc15e3d7e705a5d7440364c85d19bfa42e472152898be6b8488849f68f5952e2b879e38f61486608843d84298e9018c8c8b00231b9cce4505c4585e1aa')
+sha512sums=('768fb3557486d146c78bafc2e2bf2404b21097696fdd7c59f2ffea882eae90bb33c3130a530fd441dd011c2741bbbf3cf79952879ad1a5b2b545fbfe016e0361')
 
 package() {
   cd "$pkgname-$pkgver"

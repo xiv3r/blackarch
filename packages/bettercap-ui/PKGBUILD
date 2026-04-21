@@ -8,7 +8,7 @@ pkgdesc="Official Bettercap's Web UI."
 groups=('blackarch' 'blackarch-misc')
 arch=('any')
 url='https://github.com/bettercap/ui'
-license=('GPL3')
+license=('GPL-3.0-or-later')
 source=("https://github.com/bettercap/ui/archive/refs/tags/v$pkgver.zip")
 sha512sums=('9ef1d4e9c0a63c6c8276e2a43e34f1b3c85b6c17bd19f93460791ced4c69c2dd4adcbf40d53f1bec0610ab1f49190db747ec3d0af3239edbae1127bc1bcd988d')
 
