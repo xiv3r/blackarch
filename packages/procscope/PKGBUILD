@@ -5,13 +5,14 @@ pkgname=procscope
 pkgver=1.1.0
 pkgrel=1
 pkgdesc='Process-scoped runtime investigation tool using eBPF.'
-groups=('blackarch' 'blackarch-defensive' 'blackarch-forensic' 'blackarch-debugger')
+groups=('blackarch' 'blackarch-defensive' 'blackarch-forensic'
+        'blackarch-debugger')
 arch=('x86_64' 'aarch64')
 url='https://github.com/Mutasem-mk4/procscope'
 license=('MIT')
 depends=()
 makedepends=('go')
-source=("$pkgname-$pkgver.tar.gz::https://github.com/Mutasem-mk4/procscope/archive/refs/tags/v$pkgver.tar.gz")
+source=("https://github.com/Mutasem-mk4/procscope/archive/refs/tags/v$pkgver.tar.gz")
 sha512sums=('f8483681b1f3b6349e65d668aec67ab02bb7a0dced4f86478280561f23cdffbf139d50ba275cbf1ce17062c045b2e944f674c5c108efa38d50e752cc2e5d48bd')
 
 build() {
@@ -31,20 +32,26 @@ build() {
 
 check() {
   cd "$pkgname-$pkgver"
-  go test -short ./internal/events/... ./internal/output/... ./internal/redact/... ./internal/version/...
+
+  go test -short \
+    ./internal/events/... \
+    ./internal/output/... \
+    ./internal/redact/... \
+    ./internal/version/...
 }
 
 package() {
   cd "$pkgname-$pkgver"
 
-  install -Dm755 "$pkgname" "$pkgdir/usr/bin/$pkgname"
-  install -Dm644 "man/$pkgname.1" "$pkgdir/usr/share/man/man1/$pkgname.1"
-  install -Dm644 LICENSE "$pkgdir/usr/share/licenses/$pkgname/LICENSE"
-  install -Dm644 "completions/$pkgname.bash" \
+  install -Dm 755 "$pkgname" "$pkgdir/usr/bin/$pkgname"
+  install -Dm 644 "completions/$pkgname.bash" \
     "$pkgdir/usr/share/bash-completion/completions/$pkgname"
-  install -Dm644 "completions/$pkgname.zsh" \
+  install -Dm 644 "completions/$pkgname.zsh" \
     "$pkgdir/usr/share/zsh/site-functions/_$pkgname"
-  install -Dm644 "completions/$pkgname.fish" \
+  install -Dm 644 "completions/$pkgname.fish" \
     "$pkgdir/usr/share/fish/vendor_completions.d/$pkgname.fish"
-  install -Dm644 README.md "$pkgdir/usr/share/doc/$pkgname/README.md"
+  install -Dm 644 "man/$pkgname.1" "$pkgdir/usr/share/man/man1/$pkgname.1"
+  install -Dm 644 -t "$pkgdir/usr/share/doc/$pkgname/" README.md
+  install -Dm 644 LICENSE "$pkgdir/usr/share/licenses/$pkgname/LICENSE"
 }
+

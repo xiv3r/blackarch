@@ -4,25 +4,27 @@ pkgname=gspy
 pkgver=0.1.1
 pkgrel=1
 pkgdesc='Forensic goroutine-to-syscall inspector for live Go processes.'
-arch=('x86_64' 'aarch64)
+arch=('x86_64' 'aarch64')
 url='https://github.com/Mutasem-mk4/gspy'
 license=('GPL-2.0-or-later')
 groups=('blackarch' 'blackarch-forensic' 'blackarch-debugger')
 depends=('glibc')
-makedepends=('go>=1.21' 'clang>=14' 'llvm>=14' 'libbpf' 'linux-api-headers')
-source=("$$url/archive/refs/tags/v$pkgver.tar.gz")
-sha256sums=('SKIP')
+makedepends=('go>=1.21' 'clang>=14' 'llvm>=14' 'libbpf' 'bpf'
+             'linux-api-headers')
+source=("$url/archive/refs/tags/v$pkgver.tar.gz")
+sha256sums=('9ac6311d15ae7404ffa1a0b5bedddf9d2c0b07047503d1f9016d54d8474ae0d7')
 
 prepare() {
   cd "$pkgname-$pkgver"
-  
-  go install github.com/cilium/ebpf/cmd/bpf2go@v0.14.0
+
   export PATH=$PATH:$(go env GOPATH)/bin
+
+  go install github.com/cilium/ebpf/cmd/bpf2go@v0.14.0
 }
 
 build() {
   cd "$pkgname-$pkgver"
-  
+
   export CGO_ENABLED=0
   export PATH=$PATH:$(go env GOPATH)/bin
 
@@ -30,7 +32,7 @@ build() {
   if [ -f /sys/kernel/btf/vmlinux ]; then
     bpftool btf dump file /sys/kernel/btf/vmlinux format c > bpf/vmlinux.h
   fi
-  
+
   make generate
   make build VERSION=$pkgver
 }
@@ -43,3 +45,4 @@ package() {
   install -Dm 644 -t "$pkgdir/usr/share/doc/$pkgname/" README.md
   install -Dm 644 LICENSE "$pkgdir/usr/share/licenses/$pkgname/LICENSE"
 }
+
