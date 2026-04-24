@@ -2,7 +2,7 @@
 # See COPYING for license details.
 
 pkgname=httpgrep
-pkgver=2.6
+pkgver=2.7
 pkgrel=1
 groups=('blackarch' 'blackarch-webapp' 'blackarch-scanner')
 pkgdesc='A python tool which scans for HTTP servers and finds given strings in HTTP body and HTTP response headers.'
@@ -11,7 +11,7 @@ license=('custom:unknown')
 arch=('any')
 depends=('python' 'python-requests')
 source=("https://github.com/nullsecuritynet/tools/raw/main/scanner/$pkgname/release/$pkgname-$pkgver.tar.gz")
-sha512sums=('a8570f9cc1573972165c885c0b5abbe66f2152f0fda402e9344585d9db87e38c1f75851ea4ded4c567ad42eca73e05462f2f5302d76d2aa24fe6b7746971834a')
+sha512sums=('13e3bf2023c99862e838a92881898bebe060aa095131ef58d11ceb8d47f6aafd09ee9cc329cf85d344fcad73983979cca9d7ed288cdd151f8327c178820c02c6')
 
 package() {
   cd "$pkgname-$pkgver"
