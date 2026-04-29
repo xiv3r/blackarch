@@ -16,23 +16,29 @@ source=(https://github.com/osmocom/libosmocore/archive/refs/tags/$pkgver.tar.gz)
 sha512sums=('45c9b4cedd477d17882c9527c29e514f5ea2bc97f504ebd47797e8c683683cf87db2805ecc12d29f396f7945748658115922697c58296bfcac8db29c222e881a')
 
 prepare() {
-  cd $pkgname-$pkgver
+  cd "$pkgname-$pkgver"
 
   autoreconf -i
-  ./configure --prefix=/usr --exec-prefix=/usr --bindir=/usr/bin \
-              --sbindir=/usr/sbin --datadir=/usr/share --libexecdir=/usr/lib \
-              --localstatedir=/var --docdir=/usr/share/doc/libosmocore \
-              --libdir=/usr/lib/
+  ./configure \
+    --prefix=/usr \
+    --exec-prefix=/usr \
+    --bindir=/usr/bin \
+    --sbindir=/usr/sbin \
+    --datadir=/usr/share \
+    --libexecdir=/usr/lib \
+    --localstatedir=/var \
+    --docdir=/usr/share/doc/libosmocore \
+    --libdir=/usr/lib/
 }
 
 build() {
-  cd $pkgname-$pkgver
+  cd "$pkgname-$pkgver"
 
   make
 }
 
 package() {
-  cd $pkgname-$pkgver
+  cd "$pkgname-$pkgver"
 
   make DESTDIR="$pkgdir" install
 }

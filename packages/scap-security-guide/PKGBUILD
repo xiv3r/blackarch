@@ -9,7 +9,7 @@ arch=('any')
 groups=('blackarch' 'blackarch-automation' 'blackarch-defensive'
         'blackarch-scanner')
 url='https://www.open-scap.org/security-policies/scap-security-guide/'
-license=('BSD')
+license=('BSD-3-Clause')
 depends=()
 makedepends=('git')
 optdepends=('openscap' 'scap-workbench')
