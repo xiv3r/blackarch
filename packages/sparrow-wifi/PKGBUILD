@@ -2,7 +2,7 @@
 # See COPYING for license details.
 
 pkgname=sparrow-wifi
-pkgver=237.ab1fe0e
+pkgver=v2.0.r1.gc01799e
 pkgrel=1
 pkgdesc='Next-Gen GUI-based WiFi and Bluetooth Analyzer.'
 arch=('any')
