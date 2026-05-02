@@ -4,7 +4,7 @@
 pkgname=pcapxray
 pkgver=v5.2.r1.ga454d12
 pkgrel=1
-epoch=1
+epoch=2
 pkgdesc='A Network Forensics Tool - To visualize a Packet Capture offline as a Network Diagram including device identification, highlight important communication and file extraction.'
 arch=('any')
 groups=('blackarch' 'blackarch-forensic' 'blackarch-networking')
