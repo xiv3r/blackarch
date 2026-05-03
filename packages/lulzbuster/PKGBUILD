@@ -3,7 +3,7 @@
 
 pkgname=lulzbuster
 pkgver=2.0.0
-pkgrel=2
+pkgrel=3
 groups=('blackarch' 'blackarch-webapp' 'blackarch-scanner' 'blackarch-recon')
 pkgdesc='A multithreaded, very fast and smart HTTP(S) directory and file bruteforcer written in C on top of libcurl.'
 url='http://www.nullsecurity.net/tools/scanner.html'
@@ -11,7 +11,7 @@ license=('custom:unknown')
 arch=('x86_64' 'aarch64')
 depends=('curl')
 source=("https://github.com/nullsecuritynet/tools/raw/main/scanner/lulzbuster/release/$pkgname-$pkgver.tar.gz")
-sha512sums=('6fa1057a9f19b644087b5956b5ab1fb8def8096018f2b2d8c30c9b2bc0b6d89e191d462ceb32ec1d511e8bc65f80901a113b0a3a30a29acb9f914ae4dcec91b6')
+sha512sums=('6da02e31d2cdc05672899a0a1665c3496d0a06419497fff3086cbf6bfde0ed4ba5ed51cb7449b4216724d90e25175b2e8eb77d074e9c51a53085367d925ea143')
 
 prepare() {
   cd "$pkgname-$pkgver"
