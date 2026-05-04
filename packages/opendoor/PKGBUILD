@@ -4,20 +4,14 @@
 pkgname=opendoor
 pkgver=5.13.2
 pkgrel=1
-epoch=2
+epoch=3
 pkgdesc='OWASP WEB Directory Scanner.'
 groups=('blackarch' 'blackarch-webapp' 'blackarch-scanner' 'blackarch-recon')
 arch=('any')
 url='https://github.com/stanislav-web/OpenDoor'
 license=('GPL-3.0-or-later')
-depends=(
-  'python'
-  'python-packaging'
-  'python-pysocks'
-  'python-six'
-  'python-tabulate'
-  'python-urllib3'
-)
+depends=('python' 'python-packaging' 'python-pysocks' 'python-six'
+         'python-tabulate' 'python-urllib3')
 makedepends=('git' 'python-setuptools')
 source=("$pkgname::git+https://github.com/stanislav-web/OpenDoor.git#tag=v$pkgver")
 sha512sums=('SKIP')
@@ -41,3 +35,4 @@ EOF
 
   chmod +x "$pkgdir/usr/bin/$pkgname"
 }
+
