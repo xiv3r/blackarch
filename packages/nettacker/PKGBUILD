@@ -2,7 +2,7 @@
 # See COPYING for license details.
 
 pkgname=nettacker
-pkgver=0.4.0.r202.ga2157ee
+pkgver=0.4.0.r203.g6f4f347
 pkgrel=1
 pkgdesc='Automated Penetration Testing Framework.'
 arch=('any')

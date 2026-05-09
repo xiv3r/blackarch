@@ -3,7 +3,7 @@
 
 pkgname=katana-pd
 _pkgname=katana
-pkgver=v1.4.0.r132.g7217e42
+pkgver=v1.4.0.r140.g0f80ea8
 pkgrel=1
 epoch=1
 pkgdesc='Crawling and spidering framework.'

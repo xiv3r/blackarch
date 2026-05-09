@@ -2,7 +2,7 @@
 # See COPYING for license details.
 
 pkgname=maltrail
-pkgver=1.4.r81.g1d7b2e9
+pkgver=1.4.r363.g9faa46e
 pkgrel=1
 epoch=2
 pkgdesc='Malicious traffic detection system.'

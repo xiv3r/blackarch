@@ -3,7 +3,7 @@
 
 pkgname=netexec
 _pyver=3.14
-pkgver=v1.5.1.r339.g56406af
+pkgver=v1.5.1.r367.gdf15cf2
 pkgrel=1
 groups=('blackarch' 'blackarch-scanner' 'blackarch-exploitation'
         'blackarch-networking' 'blackarch-windows')

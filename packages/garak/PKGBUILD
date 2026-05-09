@@ -2,7 +2,7 @@
 # See COPYING for license details.
 
 pkgname=garak
-pkgver=0.15.0.r1.g81a82ab
+pkgver=0.15.0.r18.gc56023a
 pkgrel=1
 pkgdesc='The LLM vulnerability scanner.'
 arch=('any')

@@ -2,7 +2,7 @@
 # See COPYING for license details.
 
 pkgname=sliver
-pkgver=v1.7.3.r163.g92d85cb
+pkgver=v1.7.3.r171.gd2aa924
 pkgrel=1
 pkgdesc='Opensource C2 framework.'
 groups=('blackarch' 'blackarch-backdoor' 'blackarch-automation')

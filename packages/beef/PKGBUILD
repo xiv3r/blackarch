@@ -2,7 +2,7 @@
 # See COPYING for license details.
 
 pkgname=beef
-pkgver=v0.6.0.0.r255.g2c4c572
+pkgver=v0.6.0.0.r261.g4827109
 pkgrel=1
 epoch=2
 groups=('blackarch' 'blackarch-exploitation')

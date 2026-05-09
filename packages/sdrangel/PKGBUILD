@@ -2,7 +2,7 @@
 # See COPYING for license details.
 
 pkgname=sdrangel
-pkgver=v7.24.0.r115.g69c6929
+pkgver=v7.25.1.r7.g9d463b1
 pkgrel=1
 pkgdesc='Qt6/OpenGL SDR and signal analyzer frontend.'
 arch=('x86_64' 'aarch64')

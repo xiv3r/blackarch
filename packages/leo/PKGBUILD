@@ -2,7 +2,7 @@
 # See COPYING for license details.
 
 pkgname=leo
-pkgver=37987.327eef64b
+pkgver=38066.590334c2c
 pkgrel=1
 pkgdesc="Literate programmer's editor, outliner, and project manager."
 groups=('blackarch' 'blackarch-misc')

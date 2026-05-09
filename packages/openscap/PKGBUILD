@@ -2,7 +2,7 @@
 # See COPYING for license details.
 
 pkgname=openscap
-pkgver=1.4.4.r41.ge90fa5556
+pkgver=1.4.4.r47.g1e7263a2c
 pkgrel=1
 pkgdesc='Open Source Security Compliance Solution.'
 arch=('x86_64')

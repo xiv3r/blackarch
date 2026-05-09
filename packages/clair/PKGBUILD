@@ -2,7 +2,7 @@
 # See COPYING for license details.
 
 pkgname=clair
-pkgver=2184.282382a8
+pkgver=2188.c9721931
 pkgrel=1
 groups=('blackarch' 'blackarch-scanner')
 pkgdesc='Vulnerability Static Analysis for Containers.'

@@ -3,7 +3,7 @@
 
 pkgname=python-frida
 _pkgname=frida
-pkgver=17.9.3
+pkgver=17.9.7
 pkgrel=1
 pkgdesc='Dynamic instrumentation toolkit for developers, reverse-engineers, and security researchers.'
 groups=('blackarch' 'blackarch-reversing' 'blackarch-binary')
@@ -19,7 +19,7 @@ replaces=('frida')
 conflicts=('frida')
 source=("https://files.pythonhosted.org/packages/source/${_pkgname::1}/$_pkgname/$_pkgname-$pkgver.tar.gz"
         'https://raw.githubusercontent.com/frida/frida/master/COPYING')
-sha512sums=('4b48706046e5c93b6d7b79c0044ac86afbb5ad374147db8851287c3d55b3d1bd9348abeb68606fae1b3bf7fc590f22aec425e32bc2d60bc657627fc7bcaa8084'
+sha512sums=('4fb9b5dfa1bb68f10a0b618e1560230addca517517bf013a65c6d1fbaf10999707db4ae3b88882a93e13885375c58b086e2e45190eb024840f4fe57d95f2e6a9'
             'e36c8d5a0538fa4bb3575a60322057f7a687aab04c13deed25399462ba0be74ce6071cc41d967e23b9a96e552462d210280427a945c6cc956919b062878efc9a')
 
 build() {
