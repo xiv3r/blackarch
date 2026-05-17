@@ -2,21 +2,21 @@
 # See COPYING for license details.
 
 pkgname=apache-tika
-_srvname=tika-server
+_srvname=tika-server-standard
 _appname=tika-app
-pkgver=3.2.3
+pkgver=3.3.0
 pkgrel=1
 pkgdesc='Toolkit for detecting and extracting metadata and structured text content.'
 arch=('any')
 license=('Apache-2.0')
 url='https://tika.apache.org/download.html'
 depends=('java-environment' 'bash')
-source=("https://www.apache.org/dyn/closer.lua/tika/$pkgver/$_srvname-$pkgver.jar"
-        "https://www.apache.org/dyn/closer.lua/tika/$pkgver/$_appname-$pkgver.jar"
+source=("https://downloads01-he-fi.apache.org/tika/$pkgver/$_srvname-$pkgver.jar"
+        "https://downloads01-he-fi.apache.org/tika/$pkgver/$_appname-$pkgver.jar"
         "$pkgname.service")
 noextract=("$_srvname-$pkgver.jar" "$_appname-$pkgver.jar")
-sha512sums=('9d7d0815da99d99b8202388189d3030b7decfc5570ed99c95677c175ef618750743d86bdc0b637cbe683fd5e0483b89a7830f37518c369a51c020be9c69f43d5'
-            '4484c789524d15fa012368467053f492fa19391ccfa3e8ef46660475c15aaa2d183803d71540d78f3634f83e133b989b2d3dce9d0484378a7c5dd2373be0996e'
+sha512sums=('1876e3db3f3e576b7aa21dd7eedcceda772e0b5c403a2578462ee4238a39d6eb24b5512328bf48b14abbf6ef0aff0f27c0ad817e9c9bd107c41f32da070f4f86'
+            'd8f6366e335254c91d8ddfad69fb6d01d8a7f15e7aecac3bd448f69244b47e05836db9a2849cd49bd14c08740c62ea76fe87efa2f194aaa4e82889156d9edf1c'
             '7eb7ce2a2ed76ad197e247689484cf1e241f26b8cbe41e4663f42d98a22f6df5505a3df9e491e70ee3d059db4ea960ab58ca12c5593f69f97a575e46dcc2fcbf')
 
 package() {
